@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="CSS/main.css">
+</head>
+<body>
+    <nav id="top">
+        <ul>
+            <li><a href="#top">Cameron Lee</a></li>
+            <li><a href="#main">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="hero-image" id="top">
+        <div class="intro">
+            <div>
+                <h1 style="font: size 50px;">Hi, my name is Cameron Lee.</h1>
+                <p>I am an Architectural Designer & Aspiring Software Engineer based in Washington D.C.</p>
+            </div>
+            <div id="profile-pic">
+                <img class ="resize" j src="Images/Cameron-1.jpg">
+            </div>
+        </div>
+    </div>
+    <main>
+        <div id="main">
+            <article class="main-articles">
+                <h1 class="section-title">About Me</h1>
+                <strong>Welcome!</strong>
+                <p>I am an Architectural Designer with a passion for leveraging technology and computational design to enhance the creative process. My interest in design technology has inspired me to pursue an education in coding and software development.
+                </p>
+                <p>
+                    I am currently a Technical Designer at <a href="https://www.gensler.com/offices/washington-d-c" target="_blank">Gensler DC</a>, where I primarily design workplace interiors. I also serve as a Design Technology Lead supporting teams with BIM, computational design, and visualization.
+                </p>
+            </article>
+            <article class="main-articles">
+                <h1 class="section-title" id="skills">Skills & Affiliations</h1>
+                <div>
+                    <strong>Digital Skills</strong>
+                    <p>
+                        <ul>
+                            <li>Autodesk Revit</li>
+                            <li>Adobe Creative Cloud</li>
+                            <li>Enscape</li>
+                            <li>BIM360</li>
+                        </ul>
+                    </p>
+                </div>
+                <div>
+                    <strong>Analog Skills</strong>
+                    <P>
+                        <ul>
+                            <li>Sketching</li>
+                            <li>Screen Printing</li>
+                            <li>Ceramics</li>
+                            <li>Watercolor Painting</li>
+                        </ul>
+                    </P>
+                </div>
+                <div>
+                    <strong>Affiliations</strong>
+                    <p>
+                        <ul>
+                            <li>Associate Member - American Institute of Architects</li>
+                            <li>Leed Green Associate - US Green Building Council</li>
+                            <li>Design Technology Lead - Gensler</li>
+                        </ul>
+                    </p>
+                </div>
+            </article>
+            <article class="main-articles">
+                <h1 class="section-title" id="experience">Experience</h1>
+                <strong>My work experience has primarily been within the Architecture and Construction Industry</strong>
+                <p>I currently work at Gensler in Washington DC. In the past, I've worked at firms such as Booth Hansen and Samaha Associates. 
+                </p>
+            </article>
+            <article class="main-articles">
+                <h1 class="section-title">Work Pieces</h1>
+                <strong>This is a collection of drawings, photos, artwork, etc. that I've created over the years while studying architecture.</strong>
+                <div class="slider-frame">
+                    <div class="slide-images">
+                        <div class="img-container">
+                            <img src="../Portfolio/Images/Previous Work Images/Japan Poster.jpg">
+                        </div>
+                        <div class="img-container">
+                            <img src="../Portfolio/Images/Previous Work Images/Riva Sketches007.png">
+                        </div>
+                        <div class="img-container">
+                            <img src="../Portfolio/Images/Previous Work Images/IMG_8246.jpg">
+                        </div>
+                        <div class="img-container">
+                            <img src="../Portfolio/Images/Previous Work Images/IMG_3491.jpg">
+                        </div>
+                        <div class="img-container">
+                            <img src="../Portfolio/Images/Previous Work Images/Ryoanji watercolor.jpg">
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </div>
+        <nav>
+            <div id="main">
+                <article class="main-articles">
+                    <h1 class="section-title">Links</h1>
+                    <ul>
+                        <li><a href="https://www.linkedin.com/in/cameronlee18/" target="_blank">LinkedIn</a></li>
+                        <li><a href="https://issuu.com/cameronlee18" target="_blank">Issuu</a></li>
+                        <li><a href="https://github.com/camdlee" target="_blank">Github</a></li>
+                        <li><a href="../Portfolio/Pdfs/CLee Resume.pdf" target="_blank">Resume</a></li>
+                    </ul>
+                </article>
+            </div>
+        </nav>
+        <div id="main">
+            <article class="side-articles" id="contact">
+                <h1>Contact Me:</h1>
+                <strong><small><a href="https://www.linkedin.com/in/cameronlee18/" target="_blank">LinkedIn</a></small></strong><br>
+                <strong><small>Please send any questions to <a href="#">camerondlee18@gmail.com</a> or leave message below:</small></strong>
+                <br>
+                <form action="mailto: camerondlee18@gmail.com" method="POST">
+                    <label for="name"><strong>Name</strong></label>
+                    <br>
+                    <input type="text" id="name" placeholder="Your name">
+                    <br>
+                    <label for="body"><strong>Message</strong></label>
+                    <br>
+                    <textarea id="body" placeholder="Your message" rows="5"></textarea>
+                    <br>
+                    <button type="submit">Submit</button>
+                </form>
+            </article>
+        </div>
+    </main>
+    <footer>
+        <br>
+        <div>
+            &copy Cameron Lee 2023
+        </div>
+    </footer>
+</body>
+</html>
